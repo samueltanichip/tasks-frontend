@@ -2,8 +2,8 @@ pipeline {
     agent any // Executa em qualquer agente disponível
 
     tools {
-        maven 'M3' // Nome da instalação do Maven configurada no Jenkins
-        jdk 'JDK11' // Nome da instalação do JDK configurada no Jenkins
+        maven 'Maven-3.8.8' // Nome da instalação do Maven configurada no Jenkins
+        jdk 'JDK-21.0.6' // Nome da instalação do JDK configurada no Jenkins
     }
 
     stages {
